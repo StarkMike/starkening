@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'PierSans';
+  src: url('../fonts/PierSans/PierSans-Regular.otf') format('opentype'),
+  url('../fonts/PierSans/piersans-regular-webfont.ttf') format('truetype'),
+  url('../fonts/PierSans/piersans-regular-webfont.woff2') format('woff2'),
+  url('../fonts/PierSans/piersans-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html { 
+  background: url(../images/starkening.jpg) no-repeat 20% center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+	background-color: transparent;
+}
+
+h1 {
+	font-family: 'Ambarella', 'Great Vibes', 'Brust Script MT', 'cursive';
+	font-size: calc(112.5% + 8vw);
+	color: #01204e;
+	font-weight: 600;
+	margin-bottom: 0px;
+	line-height: 1.0;
+}
+
+h3 {
+	font-family: 'PierSans', 'Arial', 'sans-serif';
+	font-size: calc(70% + 2vw);
+	color: #e9d18b;
+	text-transform: uppercase;
+}
+
+.container-fluid {
+	height: 100%;
+}
+
+.text {
+	font-family: 'PierSans', 'Arial', 'sans-serif';
+	font-size: calc(80% + 2vw);
+	color: #01204e;
+	text-transform: uppercase;
+	text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.8);
+}
